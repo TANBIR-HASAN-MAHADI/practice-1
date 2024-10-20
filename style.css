@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-container{
+    height: 200hv;
+    background-image: url(bg/Div\ [banner].png) ;
+    
+    color: rgb(219, 173, 75);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.img{
+    margin-top: 30px;
+    width: 80px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+.item{
+    margin-left: 10px;
+    padding: 30px;
+    font-size: 20px;
+}
+.item:hover {
+    text-decoration: underline;
+}
+.text-img{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.banner-img{
+    width: 320px;
+}
+.description{
+    font-size: 18px;
+    color: rgb(219, 173, 75);
+}
+.H{
+    color: white;
+    font-size: 55px;
+}
+.text{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.btn{
+    border: none;
+    margin: 10px;
+    padding: 10px 22px;
+    background-color: rgb(219, 173, 75);
+    color: rgb(20, 23, 26);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo-2{
+    background-color: rgb(248, 243, 243);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.pic{
+    width: 100px;
+}
+
+.services {
+    background-color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.padding{
+    padding-top: 10px;
+}
+
+.cta-content{
+    display: flex;
+    margin: auto;
+    padding: 60px;
+}
+.call{
+    display: flex;
+    padding: 10px;
+}
+.cta-taxt{
+    text-align: center;
+    margin-left: 60px;
+    line-height: 1.8rem;
+}
+.pera{
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    /* text-align: center; */
+    line-height: 1.5rem;
+}
+.footer-container{
+    height: 60vh;
+    width: 75%;
+    display: flex;
+    /* align-items: center; */
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.footer-logo{
+    width: 50px;
+}
+.thard-slot {
+    text-align: center;
+    /* padding: 20px; */
+    width: 130%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.office{
+    padding-bottom: 20px;
+}
+.office strong {
+    color: rgb(219, 173, 75);
+}
+.off{
+    display: flex;
+}
+.second-slot{
+    padding-right: 50px;
+    width: 75%;
+}
+.first-slot{
+    padding-right: 50px;
+    text-align: center;
+    width: 110%;
+}
+.list{
+    list-style: circle;
+}
+.des{
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(219, 173, 75);
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .item {
+      padding: 10px;
+      font-size: 18px;
+      margin-left: 0;
+    }
+  
+    .text {
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+  
+    .banner-img {
+      width: 250px;
+    }
+  
+    .cta-content {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+  
+    .cta-taxt {
+      margin-left: 0;
+    }
+  
+    .services-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-item {
+      width: 90%;
+    }
+  
+    .logo-2 {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .pic {
+      width: 80px;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .first-slot, .second-slot, .thard-slot {
+      width: 100%;
+      padding-right: 0;
+    }
+  
+    .thard-slot {
+      width: 100%;
+    }
+  }
